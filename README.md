@@ -1,0 +1,2 @@
+# BettingCoinManagementApp
+賭け事をするときのコインやポイント管理アプリ

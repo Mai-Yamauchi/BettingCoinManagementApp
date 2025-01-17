@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            text-align: center;
+            padding:25%;
+        }
+        
+        table,th,tr,td{
+            margin: auto;
+            text-align: center;
+            border: solid;
+        }
+
+        table{
+            margin-top:100px;
+        }
+        
+        #returnTop{
+            margin-top:50px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 一般ユーザーの場合の表示 -->
+    <div class="container">
+        <h1>ゲームリザルト</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>順位</th>
+                    <th>ユーザー名</th>
+                    <th>残金</th>
+                    <th>儲け</th>
+                    <th>破産有無</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1位</td>
+                    <td>強い人</td>
+                    <td>10,000 Coin</td>
+                    <td>9,900</td>
+                    <td>破産無</td>
+                </tr>
+            </tbody>
+        </table>
+        <input type="button" value="TOPに戻る" id="returnTop">
+    </div>
+
+</body>
+</html>
